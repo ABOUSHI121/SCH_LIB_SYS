@@ -1,0 +1,54 @@
+/* Import the fancy fonts if not already imported */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap');
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header styling */
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* List styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    font-family: 'Roboto', sans-serif;
+}
+
+li:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+
+/* Error message styling */
+.error {
+    color: #ff4d4d;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+
+/* Fee Due styling */
+.fee-due {
+    color: #ff4d4d;
+    margin-left: 10px;
+}
